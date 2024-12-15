@@ -59,7 +59,9 @@ export default function Index() {
             <div className="font-bold">
               {user?.username} - {user?.role} - {user?.permissions}
             </div>
-
+            <NavLink to="/reset-password" className="btn mt-[30px]">
+              reset password
+            </NavLink>
             <Form method="post">
               <button type="submit" className="mt-[20px]">
                 Logout

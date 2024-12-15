@@ -31,7 +31,7 @@ export const action = async ({ request }: any) => {
 
 export default function Register() {
   const actionData = useActionData<any>();
-  console.log("actionData =>",actionData);
+
   return (
     <Form method="post">
       <div>
